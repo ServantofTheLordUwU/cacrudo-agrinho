@@ -1,0 +1,10 @@
+body {
+    background-color: #427959; /* Cor de fundo */
+    background-image: url('sua-imagem.jpg'); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem ao tamanho da tela */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
+    font-family: Arial, sans-serif;
+    color: rgb(78, 79, 139); /* Cor do texto */
+    text-align: center;
+    padding: 50px;
