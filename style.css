@@ -1,10 +1,20 @@
 body {
-    background-color: #427959; /* Cor de fundo */
-    background-image: url('sua-imagem.jpg'); /* Imagem de fundo */
-    background-size: cover; /* Ajusta a imagem ao tamanho da tela */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
-    background-position: center; /* Centraliza a imagem */
-    font-family: Arial, sans-serif;
-    color: rgb(78, 79, 139); /* Cor do texto */
-    text-align: center;
-    padding: 50px;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(120deg, #8fd3f4 0%, #84fab0 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .main-content {
+    width: 100%;
+    max-width: 900px;
+    padding: 40px 16px;
+    color: #222;
+    background: rgba(255,255,255,0.97); /* Optional: for readability */
+    border-radius: 16px;                /* Optional: rounded corners */
+    box-shadow: 0 8px 24px rgba(0,0,0,0.10); /* Optional: subtle shadow */
+    text-align: left;
+  }
