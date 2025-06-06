@@ -1,20 +1,90 @@
 body {
-    min-height: 100vh;
-    margin: 0;
-    background: linear-gradient(120deg, #8fd3f4 0%, #84fab0 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .main-content {
-    width: 100%;
-    max-width: 900px;
-    padding: 40px 16px;
-    color: #222;
-    background: rgba(255,255,255,0.97); /* Optional: for readability */
-    border-radius: 16px;                /* Optional: rounded corners */
-    box-shadow: 0 8px 24px rgba(0,0,0,0.10); /* Optional: subtle shadow */
-    text-align: left;
-  }
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(120deg, #99b6c4 0%, #51a06c 100%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.center-nav {
+  width: 100%;
+  margin: 0;
+}
+
+.center-nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+}
+
+.center-nav li {
+  margin: 0 20px;
+}
+
+.center-nav a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.center-nav a:hover {
+  color: #2ea084;
+}
+
+.page-center {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 900px;
+  padding: 40px 16px;
+  color: #222;
+  background: rgba(255,255,255,0.97);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+  text-align: left;
+}
+ 
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin: 24px 0;
+}
+
+.image-gallery img {
+  max-width: 220px;
+  max-height: 180px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+  object-fit: cover;
+}
+
+
+.author-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0 16px 0;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.author-footer a {
+  color: #476485; 
+  text-decoration: none;
+  margin-left: 4px;
+  transition: color 0.2s;
+}
+
+.author-footer a:hover {
+  color: #2ea084;
+}
